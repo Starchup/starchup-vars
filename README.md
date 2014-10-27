@@ -1,4 +1,15 @@
-starchup-vars
-=============
+# Starchup Variables module
+Simple way to store and change various Starchup configs & vars
 
-NodeJS Module for starchup variables
+# Installation
+
+    npm install starchup-vars
+
+# Components:
+
+* Order States
+
+# Usage
+    var starchup = require('starchup-vars');
+
+    if (order.state === starchup.order_states.PENDING_PICKUP) { //Do stuff }
