@@ -13,3 +13,5 @@ Simple way to store and change various Starchup configs & vars
     var starchup = require('starchup-vars');
 
     if (order.state === starchup.order_states.PENDING_PICKUP) { //Do stuff }
+    
+    starchup.state_for_order(order.state);

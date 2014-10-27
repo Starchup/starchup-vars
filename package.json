@@ -1,6 +1,6 @@
 {
   "name": "starchup-vars",
-  "version": "0.1",
+  "version": "0.1.1",
   "main": "./lib/order_states",
   "description": "Starchup configs & vars",
   "author": {
