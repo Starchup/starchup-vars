@@ -1,0 +1,22 @@
+{
+  "name": "starchup-vars",
+  "version": "0.1",
+  "main": "./lib/order_states",
+  "description": "Starchup configs & vars",
+  "author": {
+    "name": "Starchup Inc",
+    "email": "info@starchup.com",
+    "url": "http://starchup.com"
+  },
+  "keywords": ["starchup"],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Starchup/starchup-vars"
+  },
+  "engines": { "node": ">= 0.10" },
+  "dependencies": {},
+  "scripts": {},
+  "readmeFilename": "README.md",
+  "bugs": { "url": "https://github.com/Starchup/starchup-vars/issues"},
+  "homepage": "https://github.com/Starchup/starchup-vars"
+}
