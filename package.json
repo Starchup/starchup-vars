@@ -1,7 +1,7 @@
 {
   "name": "starchup-vars",
-  "version": "0.2.5",
-  "main": "./lib/main",
+  "version": "0.2.6",
+  "main": "./main",
   "description": "Starchup configs & vars",
   "author": {
     "name": "Starchup Inc",

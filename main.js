@@ -4,7 +4,7 @@
  */
 var facilityReview = {
                 // Internal starchup email to communicate rating issues with
-                "EMAIL": "gefthefrench@gmail.com",
+                "EMAIL": "info@starchup.com",
                 
                 // Minimum rating that triggers messages to starchup & facility
                 "MIN_RATING": 3
@@ -60,9 +60,9 @@ exports.percentage_cut = 0.014; // 1.4%
 
 
 /**
- * Order states
+ * Order status
  */
-var orderStates = {
+var orderStatus = {
                 "UNKNOWN": 0,
                 "CREATED": 1,
                 "PENDING_SCHEDULING_PICKUP": 2,
@@ -78,17 +78,17 @@ var orderStates = {
                 "COMPLETED": 12
             };
 
-exports.state_for_order = function(state_val)
+exports.status_for_order = function(status_val)
 {
-   var state;
-    for (var key in orderStates)
+   var status;
+    for (var key in orderStatus)
     {
-        if(orderStates.hasOwnProperty(key) && state_val == orderStates[key])
+        if(orderStatus.hasOwnProperty(key) && status_val == orderStatus[key])
         {
-            state = key;
+            status = key;
         }
     }
-    return state;
+    return status;
 }
 
-exports.order_states = orderStates;
+exports.order_Status = orderStatus;
