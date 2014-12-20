@@ -91,4 +91,4 @@ exports.status_for_order = function(status_val)
     return status;
 }
 
-exports.order_Status = orderStatus;
+exports.order_status = orderStatus;
