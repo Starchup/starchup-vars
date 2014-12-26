@@ -1,18 +1,3 @@
-
-/**
- * Facility Review variables
- */
-var facilityReview = {
-                // Internal starchup email to communicate rating issues with
-                "EMAIL": "info@starchup.com",
-                
-                // Minimum rating that triggers messages to starchup & facility
-                "MIN_RATING": 3
-            };
-
-exports.facility_review = facilityReview;
-
-
 /**
  * Schedule timeslots
  */
@@ -51,12 +36,6 @@ exports.timeslots_per_hour = timeslotsPerHour;
 var orderScheduleDelay = "01:00";
 
 exports.order_schedule_delay = timeToTimeslot(orderScheduleDelay);
-
-
-/**
- * What percentage cut we take for each order
- */
-exports.percentage_cut = 0.014; // 1.4%
 
 
 /**
