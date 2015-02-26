@@ -1,7 +1,7 @@
 /**
  * Schedule timeslots
  */
-var timeslotsPerHour = 4;
+var timeslotsPerHour = 2;
 
 exports.timeslot_to_time = function(timeslot_val)
 {
