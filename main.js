@@ -20,7 +20,7 @@ timeToTimeslot = function(time_val)
     var hours = time_val.split(":")[0];
     var minutes = time_val.split(":")[1];
 
-    var timeslot = (parseInt(hours)*4) + (Math.floor(parseInt(minutes)/60)*4);
+    var timeslot = (parseInt(hours)*timeslotsPerHour) + (Math.floor(parseInt(minutes)/60)*timeslotsPerHour);
 
     return timeslot;
 }
