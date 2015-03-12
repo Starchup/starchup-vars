@@ -33,7 +33,7 @@ exports.timeslots_per_hour = timeslotsPerHour;
  * When a customer schedules an order, he only has options at least
  * orderScheduleDelay after the current time
  */
-var orderScheduleDelay = "01:00";
+var orderScheduleDelay = "00:00";
 
 exports.order_schedule_delay = timeToTimeslot(orderScheduleDelay);
 
