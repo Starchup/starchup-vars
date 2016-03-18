@@ -12,7 +12,7 @@ exports.timeslot_to_time = function(timeslot_val) {
     var hours = Math.floor(timeConv).toString();
     if (hours.length == 1) hours = "0" + hours;
 
-    var time = hours + ":" + minutes + ":";
+    var time = hours + ":" + minutes + ":00";
 
     return time;
 }
