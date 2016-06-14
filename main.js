@@ -26,7 +26,14 @@ timeToTimeslot = function(time_val) {
     return timeslot;
 }
 
+minutesToTimeslot = function(minutes_val) {
+
+    var timeslot = Math.floor((parseInt(minutes_val) / 60) * timeslotsPerHour);
+    return timeslot;
+}
+
 exports.time_to_timeslot = timeToTimeslot;
+exports.minutes_to_timeslot = minutesToTimeslot;
 exports.timeslots_per_hour = timeslotsPerHour;
 
 
